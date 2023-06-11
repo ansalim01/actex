@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + '/'} element={<UsersAdm />} />
+        <Route path={'/'} element={<UsersAdm />} />
       </Routes>
 
     </div>
