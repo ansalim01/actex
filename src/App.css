@@ -1,38 +1,114 @@
-.App {
+h1 {
+  text-align: center;
+}
+form > input,
+select {
+  height: 20px;
+  width: 15%;
+  border: 1px solid#4b9cdb;
+  margin: 5px 0;
+}
+form :not(:last-child) {
+  margin-right: 5px;
+}
+.button__text {
+  height: 20px;
+  width: 15%;
+  border: 1px solid#4b9cdb;
+  margin: 5px 0;
+}
+
+.user {
+  border: 2px solid #4b9cdb;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user__link {
+  margin-right: 5px;
+  display: flex;
+}
+.user__link > :not(:last-child) {
+  margin-right: 5px;
+}
+
+.button__img {
+  border: 1px solid #4b9cdb;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 10px 0;
+  color: #777;
+}
+.load-wrapp {
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  border-radius: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.load-wrapp p {
+  padding: 0 0 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.load-wrapp:last-child {
+  margin-right: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ring-1 {
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 7px dashed #4b9cdb;
+  border-radius: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.load-4 .ring-1 {
+  animation: loadingD 1.5s 0.3s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
 }
-
-@keyframes App-logo-spin {
-  from {
+.l-4 {
+  animation-delay: 0.84s;
+}
+@keyframes loadingD {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
     transform: rotate(360deg);
   }
+}
+.filter {
+  margin-bottom: 20px;
+}
+.addForm label {
+  display: block;
+}
+.addForm input {
+  height: 20px;
+  width: 15%;
+  border: 1px solid#4b9cdb;
+  margin: 5px 0 5px 5px;
+}
+.addForm select {
+  height: 20px;
+  width: 15%;
+  border: 1px solid#4b9cdb;
+  margin: 5px 0 5px 5px;
+}
+.button__error {
+  border: 1px solid red;
+}
+.text__error {
+  color: red;
 }
