@@ -76,7 +76,7 @@ function UsersAdm() {
 
   return (
     <div>
-      <h1>Фильтер</h1>
+      <h2>Фильтер</h2>
       <form className="filter">
         <input
           onChange={userIdValue.onChange}
@@ -129,6 +129,7 @@ function UsersAdm() {
         </button>
       </form>
       <AddUser dataUsers={dataUsers} setdataUsers={setdataUsers}></AddUser>
+      <h2>Users</h2>
 
       {loading ? (
         dataUsers.map((item, index) => {
