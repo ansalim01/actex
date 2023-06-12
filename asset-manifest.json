@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/actex/static/css/main.01141756.css",
-    "main.js": "/actex/static/js/main.5d0ddf55.js",
+    "main.js": "/actex/static/js/main.557c344d.js",
     "static/media/gear-settings-svgrepo-com.svg": "/actex/static/media/gear-settings-svgrepo-com.6d25c228cbdb95aa861ed36337ba7d8a.svg",
     "static/media/recycling-bin-wit-cover-svgrepo-com.svg": "/actex/static/media/recycling-bin-wit-cover-svgrepo-com.df8af047348bc8704593d7d6913512ee.svg",
     "index.html": "/actex/index.html",
     "static/media/arrow-down-svgrepo-com.svg": "/actex/static/media/arrow-down-svgrepo-com.6c70c83c315abae556d7ad01aab6bb99.svg",
     "static/media/arrow-up-svgrepo-com.svg": "/actex/static/media/arrow-up-svgrepo-com.d1583b87d9b7e2282775cd7fba396f72.svg",
     "main.01141756.css.map": "/actex/static/css/main.01141756.css.map",
-    "main.5d0ddf55.js.map": "/actex/static/js/main.5d0ddf55.js.map"
+    "main.557c344d.js.map": "/actex/static/js/main.557c344d.js.map"
   },
   "entrypoints": [
     "static/css/main.01141756.css",
-    "static/js/main.5d0ddf55.js"
+    "static/js/main.557c344d.js"
   ]
 }
