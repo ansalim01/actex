@@ -9,11 +9,11 @@ function App() {
 
   return (
     <div>
-      {/* <Routes> */}
-      <HashRouter>
+      <Routes basename="actex">
+        {/* <HashRouter basename="actex"> */}
         <Route exact path={'/'} element={<UsersAdm />} />
-      </HashRouter>
-      {/* </Routes> */}
+        {/* </HashRouter> */}
+      </Routes>
 
     </div>
 
