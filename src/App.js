@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import UsersAdm from './page/UsersAdm';
 
@@ -9,9 +9,11 @@ function App() {
 
   return (
     <div>
-      <Routes>
-        <Route index path={'/'} element={<UsersAdm />} />
-      </Routes>
+      {/* <Routes> */}
+      <HashRouter>
+        <Route exact path={'/'} element={<UsersAdm />} />
+      </HashRouter>
+      {/* </Routes> */}
 
     </div>
 
