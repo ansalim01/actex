@@ -1,11 +1,9 @@
 import React from "react";
 import AddUser from "../components/AddUser";
-import EditingInformationUser from "../components/EditingInformationUser";
 import UserInfo from "../components/UserInfo";
 import dataUsersJson from "../data/users.json";
 import dataUsersTypesJson from "../data/usersTypes.json";
 import useInput from "../hooks/useInput";
-import setting from "../svg/gear-settings-svgrepo-com.svg";
 
 function UsersAdm() {
   const [dataUsers, setdataUsers] = React.useState([]);
