@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path={'/'} element={<UsersAdm />} />
+        <Route index path={'/'} element={<UsersAdm />} />
       </Routes>
 
     </div>
