@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div>
-      text
-      <UsersAdm></UsersAdm>
-      {/* <Routes >
+
+      {/* <UsersAdm></UsersAdm> */}
+      <Routes >
         <Route index path={'/'} element={<UsersAdm />} />
         <Route path={'/test'} element={<Test />} />
-      </Routes> */}
+      </Routes>
 
     </div>
 
