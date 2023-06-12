@@ -11,10 +11,11 @@ function App() {
   return (
     <div>
       text
-      <Routes >
-        <Route path={'/'} element={<UsersAdm />} />
+      <UsersAdm></UsersAdm>
+      {/* <Routes >
+        <Route index path={'/'} element={<UsersAdm />} />
         <Route path={'/test'} element={<Test />} />
-      </Routes>
+      </Routes> */}
 
     </div>
 
